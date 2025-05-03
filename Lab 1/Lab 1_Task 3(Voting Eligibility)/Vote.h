@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-class voter{
+class Voter{
 	public:  //Access Specifier
 	string name;  //Voter Name.
 	int age;  //Voter Age.
@@ -11,14 +11,14 @@ class voter{
 	
 };
   //Method Definition Outside The Class.
-    void voter :: getData(){
+    void Voter :: getData(){
     	cout<<"Enter Name : ";  //Input Name.
     	cin>>name;
     	cout<<"Enter Age : ";  //Input Age.
     	cin>>age;
 	}
 
-	int voter :: isEligible(){
+	int Voter :: isEligible(){
 		bool isEligible = true;  //Using Bool variable.
 		if(age>18){
 			return true; 

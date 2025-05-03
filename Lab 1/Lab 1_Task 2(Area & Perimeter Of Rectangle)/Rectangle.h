@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-class rectangle{
+class Rectangle{
 	public:  //Access Specifier
 	int length; //Rectangle Length.
 	int width;  //Rectangle Width.
@@ -11,17 +11,17 @@ class rectangle{
 	int perimeter();  //Method Declaration.
 };
   //Method Defiition Outside The Class.
-  void rectangle :: setDimensions(){
+  void Rectangle :: setDimensions(){
   	cout<<"Enter Length : ";  //Enter Length.
   	cin>>length;
   	cout<<"Enter Width : ";  //Enter Width.
   	cin>>width;
   }
-  int rectangle :: area(){
+  int Rectangle :: area(){
   	int A = length * width;  //Formula For Area Of Rectangle.
   	return A;
   }
-  int rectangle :: perimeter(){
+  int Rectangle :: perimeter(){
   	int P = 2 * (length + width);  //Formula For Perimeter Of Rectangle.
   	return P;
   }

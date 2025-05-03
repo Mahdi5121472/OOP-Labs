@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-class product{
+class Product{
 	private:  //Access Specifier.
 		string name;  //Product Name.
 		double price;  //Product Price.
