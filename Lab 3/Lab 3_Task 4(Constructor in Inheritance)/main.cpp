@@ -4,7 +4,7 @@
 using namespace std;
 int main(){
 	//Task 4:Constructor In Inheritance.
-	Rectangle R;
+	Rectangle R;  //Object Of Class.
 	
 	return 0;
 }
