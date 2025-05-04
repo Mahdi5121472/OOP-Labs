@@ -28,8 +28,8 @@ class Rectangle{
 		}
 		
 		 void display(){  //Method For Displaying Area.
-		    cout<<"Length is : "<<length<<endl;
-		    cout<<"Width is : "<<width<<endl;
-			cout<<"Area is : "<<area()<<endl;
+		    cout<<"Length is : "<<length<<endl;  //output Length.
+		    cout<<"Width is : "<<width<<endl;  //output Width.
+			cout<<"Area is : "<<area()<<endl;  //output Area.
 		}
 };

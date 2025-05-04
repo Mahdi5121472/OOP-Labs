@@ -15,8 +15,8 @@ class Employee{
 			}
 			
 			 void displayDetails(){  //Method For Displaying Details.
-				cout<<"Employee ID : "<<id<<endl;
-				cout<<"Employee Name : "<<name<<endl;
-				cout<<"Employee Salary : "<<salary;
+				cout<<"Employee ID : "<<id<<endl;  //Output ID.
+				cout<<"Employee Name : "<<name<<endl;  //Output Name.
+				cout<<"Employee Salary : "<<salary;  //Salary.
 			}
 };
